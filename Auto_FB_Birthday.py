@@ -49,6 +49,7 @@ for els in birthday_boxes:
         els.send_keys("Happy birthday!")
         els.send_keys(Keys.ENTER) 
         print("Birthday Wish posted for friend" + str(count)) 
+        time.sleep(0.7)
     except:
         print("couldn't post")
 
